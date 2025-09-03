@@ -274,7 +274,7 @@ window.addEventListener("DOMContentLoaded", () => {
       </section>
 
       <section id="work">
-        <h2>Timeline</h2>
+        <h2>Professional Timeline</h2>
         <ol class="timeline">
           ${data.timeline.map(renderTimeline).join("")}
         </ol>
