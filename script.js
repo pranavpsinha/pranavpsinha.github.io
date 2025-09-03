@@ -81,7 +81,7 @@ window.addEventListener("DOMContentLoaded", () => {
       listHTML = `<ul>${t.desc.map(p => `<li>${p}</li>`).join("")}</ul>`;
     } else {
       // If desc is a string (fallback)
-      const points = t.desc.split("\\n").map(p => p.trim()).filter(Boolean);
+      const points = (t?.desc || '').split("\\n").map(p => p.trim()).filter(Boolean);
       listHTML = points.length > 1
         ? `<ul>${points.map(p => `<li>${p.replace(/^•\s*/, "")}</li>`).join("")}</ul>`
         : `<p>${t.desc}</p>`;
