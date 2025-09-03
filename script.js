@@ -72,7 +72,7 @@ window.addEventListener("DOMContentLoaded", () => {
     </article>
   `;
 
-  // Render career timeline
+  // Helper: render timeline with bullet points
   const renderTimeline = (t) => {
     let listHTML = "";
 
@@ -256,25 +256,6 @@ window.addEventListener("DOMContentLoaded", () => {
       } else {
         return `<div class="card">${content}</div>`;
       }
-    };
-
-    // Helper: render timeline with bullet points
-    const renderTimeline = (t) => {
-      // Split desc by newline → bullets
-      const points = (t?.desc || '').split("\n").map(p => p.trim()).filter(Boolean);
-      const listHTML = points.length > 1
-        ? `<ul>${points.map(p => `<li>${p.replace(/^•\s*/, "")}</li>`).join("")}</ul>`
-        : `<p>${t.desc}</p>`;
-
-      return `
-        <li>
-          <div class="timecard">
-            <h3>${t.year} — ${t.title}</h3>
-            ${listHTML}
-            <span class="pill">${t.tag}</span>
-          </div>
-        </li>
-      `;
     };
 
     // Build Content Sections
