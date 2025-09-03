@@ -186,8 +186,7 @@ window.addEventListener("DOMContentLoaded", () => {
             "tag": "Foundations",
             "link": ""
           }
-        ]
-,
+        ],
         "music": [
           {
             "title": "Besura | #113 | Lukka chhuppi",

@@ -16,35 +16,63 @@
     {
       "year": "2025 – ongoing",
       "title": "Multi-Airport Rollouts & Partner Integrations",
-      "desc": "• Designed slot-based inventory for ADILX Lounge (San Francisco)\\n• Guided Skateboard rollouts across JFK (NY), CPH (Denmark), PHL (US)\\n• Built logging & surveillance module for debugging orders\\n• Integrated Loyalty Rewards for BIAL employees (multi-party system)\\n• Planning BIAL migration to Skateboard (cut-over strategy pending)\\n• Driving integrations across cabs, lounges, hotels, FnB, bot delivery\\n• Oversight of OSS compatibility, VAPT fixes, and maintenance",
+      "desc": [
+        "Designed slot-based inventory for ADILX Lounge (San Francisco)",
+        "Guided Skateboard rollouts across JFK (NY), CPH (Denmark), PHL (US)",
+        "Built logging & surveillance module for debugging orders",
+        "Integrated Loyalty Rewards for BIAL employees (multi-party system)",
+        "Planning BIAL migration to Skateboard (cut-over strategy pending)",
+        "Driving integrations across cabs, lounges, hotels, FnB, bot delivery",
+        "Oversight of OSS compatibility, VAPT fixes, and maintenance"
+      ],
       "tag": "Leadership",
       "link": ""
     },
     {
       "year": "2024 – 2025",
       "title": "Scaling Skateboard to SaaS",
-      "desc": "• Forked PES into SaaS-ready Skateboard\\n• Expanded globally via Servy acquisition\\n• Supervised integrations & design reviews\\n• Coordinated new business opportunities & team alignment",
+      "desc": [
+        "Forked PES into SaaS-ready Skateboard",
+        "Expanded globally via Servy acquisition",
+        "Supervised integrations & design reviews",
+        "Coordinated new business opportunities & team alignment"
+      ],
       "tag": "Scale",
       "link": ""
     },
     {
       "year": "2023 – 2024",
       "title": "First Client – BLR Airport",
-      "desc": "• Deployed Skateboard + Store-Sense in continuous rollouts\\n• Mentored juniors to take on dev work while I led solutioning\\n• Parallel work on new integrations\\n• References: BLR websites & mobile apps",
+      "desc": [
+        "Deployed Skateboard + Store-Sense in continuous rollouts",
+        "Mentored juniors to take on dev work while I led solutioning",
+        "Parallel work on new integrations",
+        "References: BLR websites & mobile apps"
+      ],
       "tag": "Deployment",
       "link": "https://www.bengaluruairport.com/"
     },
     {
       "year": "2021 – 2022",
       "title": "Products in Airport Domain",
-      "desc": "• Architected PES (multi-merchant app for Cab, FnB, Lounge, Events, Flights and more...)\\n• Designed & coded backend system from scratch\\n• Store Sense: POS-based analytics for airport sales\\n• Portals for stores, airports, admins (later pivoted to S3/API ingestion)",
+      "desc": [
+        "Architected PES (multi-merchant app for Cab, FnB, Lounge, Events, Flights and more...)",
+        "Designed & coded backend system from scratch",
+        "Store Sense: POS-based analytics for airport sales",
+        "Portals for stores, airports, admins (later pivoted to S3/API ingestion)"
+      ],
       "tag": "Product",
       "link": ""
     },
     {
       "year": "2017 – 2020",
       "title": "Foundations & Transition to Backend",
-      "desc": "• Built BI dashboards with QlikSense & Pentaho\\n• Developed Car Parking RMS pricing module (Java-MySQL)\\n• Designed resource allocation algorithm for global breweries (Python, $100M project)\\n• Inducted into product engineering team for PES",
+      "desc": [
+        "Built BI dashboards with QlikSense & Pentaho",
+        "Developed Car Parking RMS pricing module (Java-MySQL)",
+        "Designed resource allocation algorithm for global breweries (Python, $100M project)",
+        "Inducted into product engineering team for PES"
+      ],
       "tag": "Foundations",
       "link": ""
     }
