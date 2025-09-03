@@ -261,7 +261,7 @@ window.addEventListener("DOMContentLoaded", () => {
     // Helper: render timeline with bullet points
     const renderTimeline = (t) => {
       // Split desc by newline → bullets
-      const points = t.desc.split("\n").map(p => p.trim()).filter(Boolean);
+      const points = (t?.desc || '').split("\n").map(p => p.trim()).filter(Boolean);
       const listHTML = points.length > 1
         ? `<ul>${points.map(p => `<li>${p.replace(/^•\s*/, "")}</li>`).join("")}</ul>`
         : `<p>${t.desc}</p>`;
